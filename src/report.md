@@ -414,3 +414,31 @@
 
     ![](img/12/12_6.png)\
     `sudo du /var/log/* -h`
+<br>
+<br>
+
+
+
+## Part 13. Установка и использование утилиты ncdu
+
+* Установи утилиту ncdu
+
+    ```shell
+    sudo apt install ncdu
+    ```
+
+* Выведи размер папок /home, /var, /var/log
+
+    ![](img/13/13_1.png)\
+    `ncdu /home`
+
+    ![](img/13/13_2.png)\
+    `ncdu /var`
+
+    ![](img/13/13_3.png)\
+    `ncdu /var/log`
+<br>
+<br>
+
+
+
